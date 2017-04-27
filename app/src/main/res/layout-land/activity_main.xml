@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/icons"
+    tools:context="com.spiti.farmaker1.singlescreen.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollKreata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/onoma"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/logoname"
+                android:layout_below="@id/logo"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/sizotext" />
+
+            <ImageView
+                android:id="@+id/imageBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/onoma"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/buutch" />
+
+
+            <TextView
+                android:id="@+id/perigrafi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageBusiness"
+                android:layout_marginLeft="@dimen/dimmarg"
+                android:layout_marginRight="@dimen/dimmarg"
+                android:gravity="end"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/epilogi"
+                style="@style/blackTextView"
+                android:layout_below="@id/perigrafi"
+                android:text="@string/epiloges"
+                android:textAlignment="center"
+                android:textSize="@dimen/sizotext" />
+
+            <LinearLayout
+                android:id="@+id/linzooa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/epilogi"
+                android:orientation="horizontal">
+
+                <LinearLayout style="@style/linearMeat">
+
+                    <ImageView
+                        style="@style/meat"
+                        android:src="@drawable/cow" />
+
+                    <TextView
+                        style="@style/meatText"
+                        android:text="@string/cowtext" />
+                </LinearLayout>
+
+                <View style="@style/viewBetween" />
+
+                <LinearLayout style="@style/linearMeat">
+
+                    <ImageView
+                        style="@style/meat"
+                        android:src="@drawable/pig" />
+
+                    <TextView
+                        style="@style/meatText"
+                        android:text="@string/pigtext" />
+                </LinearLayout>
+
+                <View style="@style/viewBetween" />
+
+                <LinearLayout style="@style/linearMeat">
+
+                    <ImageView
+                        style="@style/meat"
+                        android:src="@drawable/thanksgiving" />
+
+                    <TextView
+                        style="@style/meatText"
+                        android:text="@string/pollotext" />
+                </LinearLayout>
+
+                <View style="@style/viewBetween" />
+
+                <LinearLayout style="@style/linearMeat">
+
+                    <ImageView
+                        style="@style/meat"
+                        android:src="@drawable/kebab" />
+
+                    <TextView
+                        style="@style/meatText"
+                        android:text="@string/kempaptext" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viewkreat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimview"
+                android:layout_below="@id/linzooa"
+                android:background="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/freska"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewkreat"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/cowpad"
+                android:paddingTop="@dimen/cowpad"
+                android:text="@string/freska"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/cowpad"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epikoinonia"
+                style="@style/blackTextView"
+                android:layout_below="@id/freska"
+                android:text="@string/epikoinonia"
+                android:textAlignment="center"
+                android:textSize="@dimen/sizotext"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:id="@+id/linearTilefono"
+                style="@style/linearEpik.No"
+                android:layout_below="@id/epikoinonia">
+
+                <ImageView
+                    style="@style/imageEpik"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    style="@style/textEpik"
+                    android:text="@string/telephone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearMail"
+                style="@style/linearEpik.No"
+                android:layout_below="@id/linearTilefono">
+
+                <ImageView
+                    style="@style/imageEpik"
+                    android:src="@drawable/mail" />
+
+                <TextView
+                    style="@style/textEpik"
+                    android:text="@string/mail" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearGps"
+                style="@style/linearEpik.No"
+                android:layout_below="@id/linearMail">
+
+                <ImageView
+                    style="@style/imageEpik"
+                    android:src="@drawable/mark" />
+
+                <TextView
+                    style="@style/textEpik"
+                    android:text="@string/gps" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearHour"
+                style="@style/linearEpik.No"
+                android:layout_below="@id/linearGps">
+
+                <ImageView
+                    style="@style/imageEpik"
+                    android:src="@drawable/calendar" />
+
+                <TextView
+                    style="@style/textEpik"
+                    android:text="@string/hour" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/thanks"
+                android:layout_height="@dimen/thanks"
+                android:layout_below="@id/linearHour"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/thanks" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

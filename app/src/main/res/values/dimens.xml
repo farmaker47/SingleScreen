@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="logoname">45dp</dimen>
+    <dimen name="sizotext">25sp</dimen>
+    <dimen name="cowpad">20dp</dimen>
+    <dimen name="cowpadleft">30dp</dimen>
+    <dimen name="dimview">2dp</dimen>
+    <dimen name="dimmarg">10dp</dimen>
+    <dimen name="thanks">150dp</dimen>
+    <dimen name="marginEpik">150dp</dimen>
+</resources>

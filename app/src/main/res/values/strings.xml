@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Χασάπικο-Βαρβάκειος</string>
+    <string name="permag">  \n\"Καλώς ήρθατε στο ηλεκτρονικό κατάστημα κρεατικών και παντώς είδων τροφίμων.Παρακαλούμε επιλέξτε απο την παρακάτω
+                ποικιλία μας ολα τα είδη που σας ενδιαφέρουν και στείλτε μήνυμα με το κινητό σας\"\n\n \"Υπεύθυνος μαγαζιού:  Γεώργιος Σολούπης\"\n</string>
+    <string name="epiloges">Επιλογές</string>
+    <string name="freska">Φρέσκα και Νόστιμα</string>
+    <string name="cowtext">Μοσχάρι</string>
+    <string name="pigtext">Χοιρινό</string>
+    <string name="kempaptext">Κεμπάπ</string>
+    <string name="pollotext">Κοτόπουλο</string>
+    <string name="epikoinonia">Επικοινωνία</string>
+    <string name="telephone">+306973027799</string>
+    <string name="mail">soloupis@gmail.com</string>
+    <string name="gps" translatable="false">Νικηταρά 102,\nΚαλαμάτα,\nΕλλάς</string>
+    <string name="hour">Δευτέρα-Παρασκευή 9.00-21.00</string>
+</resources>

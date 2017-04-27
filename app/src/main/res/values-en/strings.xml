@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Butcher Shop - Βαρβάκειος</string>
+    <string name="cowtext">Beef</string>
+    <string name="epikoinonia">Informations</string>
+    <string name="epiloges">Selections</string>
+    <string name="freska">Fresh and Tasty</string>
+    <string name="hour">Monday - Friday 9.00-21.00</string>
+    <string name="kempaptext">Kebap</string>
+    <string name="pigtext">Pork</string>
+    <string name="pollotext">Chicken</string>
+    <string name="permag">  \n\"Welcome to our electronic meat store. Please select from our vast variety whatever intrests you and send us a message with your phone\"\n\n \"CEO: George Soloupis\"\n</string>
+</resources>
