@@ -141,7 +141,7 @@
                 android:text="@string/freska"
                 android:textAlignment="center"
                 android:textColor="@color/primary_text"
-                android:textSize="@dimen/cowpad"
+                android:textSize="@dimen/freska"
                 android:textStyle="bold" />
 
             <TextView

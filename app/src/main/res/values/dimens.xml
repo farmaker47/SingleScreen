@@ -10,4 +10,5 @@
     <dimen name="dimmarg">10dp</dimen>
     <dimen name="thanks">150dp</dimen>
     <dimen name="marginEpik">150dp</dimen>
+    <dimen name="freska">20sp</dimen>
 </resources>
